@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>1F130FAF-DC07-488B-81F0-BA8CC7180A06</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F130FAF-DC07-488B-81F0-BA8CC7180A06.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinkedIn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinkedIn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace LinkedIn with scheme LinkedIn and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>589187560.05209601</real>
+			<key>timeStoppedRecording</key>
+			<real>589187568.77278101</real>
+			<key>title</key>
+			<string>Building workspace LinkedIn with scheme LinkedIn and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>1F130FAF-DC07-488B-81F0-BA8CC7180A06</string>
+		</dict>
+		<key>F0674FE8-D87B-4B93-8759-98990BAB4C5C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F0674FE8-D87B-4B93-8759-98990BAB4C5C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LinkedIn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LinkedIn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace LinkedIn with scheme LinkedIn and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>589194201.575701</real>
+			<key>timeStoppedRecording</key>
+			<real>589194215.59209204</real>
+			<key>title</key>
+			<string>Building workspace LinkedIn with scheme LinkedIn and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F0674FE8-D87B-4B93-8759-98990BAB4C5C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
