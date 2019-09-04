@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sanchitwakekar/ReactNativeProjects/LinkedIn/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "C:\\LinkedIn\\LinkedIn\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/sanchitwakekar/.gradle/caches/transforms-2/files-2.1/e9095ddedd5e2043f714c37284bd01ce/res/values-night-v8/values-night-v8.xml",
+                    "source": "C:\\Users\\sanchit.wakekar\\.gradle\\caches\\transforms-2\\files-2.1\\92975a529af43334198df8b51af63b5f\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

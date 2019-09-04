@@ -46,8 +46,8 @@ export function AuthReducer(state = initialState, action) {
         }
         case ACTION_LOGOUT: {
             return {
-                ...state,
                 isLoggedIn: '0',
+                registrationsuccessful: '0',
             }
         }
 

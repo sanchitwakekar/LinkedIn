@@ -21,24 +21,30 @@ class RegisterScreen extends React.Component {
     header: null
   }
 
+  componentDidUpdate() {
+    if (this.props.Authentication.registrationsuccessful === '1') {         
+        this.props.navigation.navigate('SignIn');         
+    }
+  }
+
   registerAsync = async () => {
 
     try {
       if (this.state.username !== null && this.state.skills !== null && this.state.password !== null && this.state.company !== null && this.state.position !== null) {
         console.log(this.state.username + '  ' + this.state.password + '  ' + this.state.confirmpassword + '  ' + this.state.skills + '  ' + this.state.company + '  ' + this.state.position + '  ');
         this.props.register_user(this.state);
-        if (this.props.Authentication.isLoggedIn === '1') {         
-            this.props.navigation.navigate('SignIn');         
-        } else {
+        // if (this.props.Authentication.registrationsuccessful === '1') {         
+        //     this.props.navigation.navigate('SignIn');         
+        // } else {
          
-            this.state.username = '';
-            this.state.skills = '';
-            this.state.password = '';
-            this.state.confirmpassword = '';
-            this.state.company = '';
-            this.state.position = '';
+        //     this.state.username = '';
+        //     this.state.skills = '';
+        //     this.state.password = '';
+        //     this.state.confirmpassword = '';
+        //     this.state.company = '';
+        //     this.state.position = '';
          
-        }
+        // }
       }
     } catch (e) { }
   };
@@ -128,7 +134,7 @@ class RegisterScreen extends React.Component {
         <TouchableOpacity style={styles.styletouchableopacity} onPress={this.registerAsync}>
           <Text style={styles.styletext}>AGREE & JOIN</Text>
         </TouchableOpacity>
-        <Toast ref="toast"/>
+        
       </View>
     );
   }
@@ -175,6 +181,7 @@ const styles = StyleSheet.create({
   styletouchableopacity: {
     borderColor: '#FFFFFF',
     borderWidth: 3,
+    alignSelf:'center',
     paddingTop: 20,
     width:'80%',
     justifyContent: 'center',

@@ -26,12 +26,6 @@ class SignInScreen extends React.Component {
 
   signAsync = async () => {
     this.props.signin_user(this.state);
-    if (this.props.Authentication.isLoggedIn === '1') {     
-        this.props.navigation.navigate('App');     
-    } else {    
-        this.state.username = '';
-        this.state.password = '';     
-    }
   };
   registerAsync = async () => {
     this.props.navigation.navigate('Register');
@@ -75,7 +69,7 @@ class SignInScreen extends React.Component {
             <Text style={styles.styletext}>JOIN NOW</Text>
           </TouchableOpacity>
         </View>
-        <Toast ref="toast" />
+
       </View>
     );
   }
@@ -116,7 +110,8 @@ const styles = StyleSheet.create({
     borderColor: '#FFFFFF',
     borderWidth: 3,
     paddingTop: 20,
-    width:'80%',
+    alignSelf: 'center',
+    width: '80%',
     justifyContent: 'center',
     backgroundColor: '#0174AB',
     margin: 10,
