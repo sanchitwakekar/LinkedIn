@@ -1,0 +1,4 @@
+#Wed Sep 04 16:47:21 IST 2019
+base.0=C\:\\ReactNativeWorkspace\\ReactnativeProjects\\LinkedIn\\android\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

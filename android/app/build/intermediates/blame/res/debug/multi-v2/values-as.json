@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\LinkedIn\\LinkedIn\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+            "outputFile": "C:\\ReactNativeWorkspace\\ReactnativeProjects\\LinkedIn\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
             "map": [
                 {
                     "source": "C:\\Users\\sanchit.wakekar\\.gradle\\caches\\transforms-2\\files-2.1\\92975a529af43334198df8b51af63b5f\\res\\values-as\\values-as.xml",

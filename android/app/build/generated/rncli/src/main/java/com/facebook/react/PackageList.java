@@ -21,6 +21,8 @@ import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// react-native-webview
+import com.reactnativecommunity.webview.RNCWebViewPackage;
 
 public class PackageList {
   private Application application;
@@ -57,7 +59,8 @@ public class PackageList {
       new AsyncStoragePackage(),
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),
-      new SplashScreenReactPackage()
+      new SplashScreenReactPackage(),
+      new RNCWebViewPackage()
     ));
   }
 }
